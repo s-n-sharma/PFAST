@@ -59,7 +59,7 @@ class DataDisplay:
             site: Water site dictionary
             index: Site index number
         """
-        print(f"\n{id}. {site['name']} ({site['type']})")
+        print(f"\n{index}. {site['name']} ({site['type']})")
         print(f"   📍 Location: {site['city']}, {site['state']} ({site['zipcode']})")
         print(f"   📏 Distance: {site.get('distance_miles', 'N/A')} miles")
         print(f"   🧪 Total PFAS: {site['total_pfas_ppb']} ppb")
