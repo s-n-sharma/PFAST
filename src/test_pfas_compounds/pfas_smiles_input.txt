@@ -1,0 +1,44 @@
+# PFAS Compounds for Property Prediction
+# Format: Compound_Name: SMILES_String
+
+# Perfluorooctanoic acid (PFOA)
+PFOA: C(=O)(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O
+
+# Perfluorooctanesulfonic acid (PFOS)
+PFOS: C(C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F
+
+# GenX (Hexafluoropropylene oxide dimer acid)
+GenX: C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(C(=O)O)C(=O)O
+
+# Perfluorobutanesulfonic acid (PFBS)
+PFBS: C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F
+
+# Perfluorohexanesulfonic acid (PFHxS)
+PFHxS: C(C(C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(F)F)(F)F
+
+# Perfluorodecanoic acid (PFDA)
+PFDA: C(=O)(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O
+
+# Perfluorononanoic acid (PFNA)
+PFNA: C(=O)(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O
+
+# Perfluoroheptanoic acid (PFHpA)
+PFHpA: C(=O)(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O
+
+# Perfluoropentanoic acid (PFPeA)
+PFPeA: C(=O)(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)O
+
+# Perfluorobutanoic acid (PFBA)
+PFBA: C(=O)(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)O
+
+# Perfluoropropanoic acid (PFPrA)
+PFPrA: C(=O)(C(C(C(F)(F)F)(F)F)(F)F)O
+
+# Perfluoroacetic acid (PFAA)
+PFAA: C(=O)(C(C(F)(F)F)(F)F)O
+
+# Perfluorododecanoic acid (PFDoA)
+PFDoA: C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O
+
+# Perfluoroundecanoic acid (PFUnA)
+PFUnA: C(=O)(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O 
