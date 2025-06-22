@@ -8,9 +8,16 @@ Author: PFAS AI Project
 Date: 2024
 """
 
-from .accurate_pfas import AccuratePFASPredictor
-from .moleculenet_pfas import MoleculeNetPFASPredictor
-from .utils import is_valid_smiles
+try:
+    from .accurate_pfas import AccuratePFASPredictor
+    from .moleculenet_pfas import MoleculeNetPFASPredictor
+    from .utils import is_valid_smiles
+except ImportError:
+    # Fallback for when running directly
+    from accurate_pfas import AccuratePFASPredictor
+    from moleculenet_pfas import MoleculeNetPFASPredictor
+    from utils import is_valid_smiles
+
 from typing import Dict, List, Optional
 import warnings
 warnings.filterwarnings('ignore')

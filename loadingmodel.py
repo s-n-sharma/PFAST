@@ -84,7 +84,7 @@ def predict_toxicity(model, features_list, device, assay_names):
 
 if __name__ == '__main__':
     # --- Configuration ---
-    MODEL_PATH = 'saved_models/best_toxicology_model0.0597967654466629.pth' 
+    MODEL_PATH = 'saved_models/bestmodel.pth' 
     FEATURES_CSV_PATH = 'features.csv' # Needed to determine NUM_FEATURES
     ASSAY_CSV_PATH = 'assays.csv' # Needed to determine the exact assay list
     
