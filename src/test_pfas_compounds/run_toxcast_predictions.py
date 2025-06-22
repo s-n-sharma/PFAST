@@ -20,6 +20,7 @@ warnings.filterwarnings('ignore')
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from pfas_prediction_models.combined_pfas import CombinedPFASPredictor
+from pfas_prediction_models.accurate_pfas import AccuratePFASPredictor
 
 
 class DataCreator:
@@ -108,7 +109,7 @@ class DataCreator:
             List of dictionaries containing prediction results
         """
         print("Initializing Combined PFAS Predictor...")
-        predictor = CombinedPFASPredictor()
+        predictor = AccuratePFASPredictor()
         
         results = []
         
