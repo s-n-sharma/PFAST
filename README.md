@@ -1,2 +1,2 @@
-# pfasai
-pfasai
+# PFAST
+PFAST is a model that predicts the effects of PFAS chemicals on the body. It takes as input a SMILE string and then predicts the physical properties of the compound, and then using that, predicts the results of ~90 different biological assays. The first stage of the model is built using GNN's, transformers, and random forests, and the second stage is an MLP. In tests, the model was 80% accurate. 
